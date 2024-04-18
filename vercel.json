@@ -4,5 +4,6 @@
         "src": "src/main.jsx",
         "use": "@vercel/static"
       }
-    ]
+    ],
+    "root": "src"
   }
