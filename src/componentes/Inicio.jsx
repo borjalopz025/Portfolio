@@ -18,15 +18,15 @@ const Inicio = () => {
                 </p>
                 <div className='img'>
                   <div className='logos'>
-                    <a href="https://github.com/borjalopz025?tab=repositories" target="_blank" ><img src="./public/imagenes/logo-git.png"/></a>
+                    <a href="https://github.com/borjalopz025?tab=repositories" target="_blank" ><img src="/imagenes/logo-git.png"/></a>
                   </div>
                   
                   <div className='logos'>
-                    <a href="https://www.linkedin.com/in/borja-lopez-calvo-75bb79191/" target="_blank" ><img src="./public/imagenes/lik.png"/></a>
+                    <a href="https://www.linkedin.com/in/borja-lopez-calvo-75bb79191/" target="_blank" ><img src="/imagenes/lik.png"/></a>
                   </div>
 
                   <div className='logo2'>
-                    <a href="./public/Cv ..docx" download>
+                    <a href="/Cv ..docx" download>
                       <button>Descargar Currículum</button>
                     </a>
                   </div>
@@ -35,7 +35,7 @@ const Inicio = () => {
                 
             </div>
             <div className='foto'>
-                <img src="./public/imagenes/yo-sin-fondo.png" alt="" />
+                <img src="/imagenes/yo-sin-fondo.png" alt="" />
             </div>
         </div>
         
