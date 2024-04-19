@@ -23,7 +23,7 @@ html {
   bottom: 0;
   z-index: 0;
 
-  height: 3000px;
+  height: 2900px;
 }
 
 /* Encabezado */
@@ -100,12 +100,18 @@ html {
 .inicio .tarjeta-des .descripcion {
   width: 80%;
   margin: 20px;
+  margin-bottom: 2%;
 }
 
 .inicio .tarjeta-des .descripcion p {
-  color: white;
+  color: gray;
   font-size: 20px;
   font-weight:lighter;
+}
+
+.inicio .tarjeta-des .descripcion h2 {
+  color: rgb(49, 80, 253);
+  
 }
 
 .inicio .tarjeta-des .descripcion a {
@@ -122,9 +128,9 @@ html {
 .inicio .tarjeta-des .foto img {
   width: 100%;
   height: 100%;
-  margin-bottom: 10%;
-  border-radius: 5%;
-  box-shadow: 0 0 8px 1px rgb(121, 121, 121);
+  margin-bottom: 20%;
+  /* border-radius: 5%;
+  box-shadow: 0 0 8px 1px rgb(121, 121, 121); */
 
 
 }
@@ -312,4 +318,143 @@ footer {
   color: black;
   margin-top: 13%;
   text-align:center;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .inicio .tarjeta-des {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .port .proyectos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .layout {
+  
+ 
+    background-image: url('../public/imagenes/spacio2.jpeg');
+    background-repeat: repeat; /* Esto hace que la imagen se repita */
+    background-size: auto; /* Esto mantiene el tamaño original de la imagen */
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+
+    height: 3800px;
+  }
+
+  .port .proyectos {
+    margin-left: 20%;
+  }
+
+  .port .proyectos .proyecto-item {
+    width: 70%;
+  }
+
+  .contact-form h1 {
+    margin-left: 10%;
+  }
+
+  .contact-form form{
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+   body {
+    width: 100%;
+    overflow-x: hidden;
+   }
+   
+  .layout {
+    width: 100%;
+    height: 100vh;
+  
+    background-image: url('../public/imagenes/spacio2.jpeg');
+    background-repeat: repeat; /* Esto hace que la imagen se repita */
+    background-size: auto; /* Esto mantiene el tamaño original de la imagen */
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  
+    height: 3800px;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    overflow-x: hidden;
+    
+  }
+
+  .inicio .tarjeta-des {  
+    width: 80%;
+    
+  }
+
+  .inicio .tarjeta-des {
+    margin: 0 auto; /* Esto centra el elemento horizontalmente */
+  }
+
+  .inicio h1 {
+    margin-top: 50%;
+  }
+
+  .inicio .sobre {
+    display: none;
+  }
+
+  .inicio .tarjeta-des .foto {
+    margin-right: 15%;
+  }
+
+  .port .proyectos .proyecto-item {
+    width: 90%;
+  }
+
+  .port .proyectos {
+    margin: 0 auto; 
+    margin-right: 5%;
+  }
+
+  .header nav {
+    display: none;
+  }
+
+  .header h1 {
+    text-align: center;
+  }
+
+  .header .logo {
+    margin-left: 22%;
+    margin-bottom: 10%;
+  }
+
+  
+  .port .proyectos .proyecto-item video,
+  .port .proyectos .proyecto-item img {
+    width: 100%; 
+    height: 30%; 
+    object-fit: contain;
+  }
+
+  .contact-form h1 {
+    margin-left: 10%;
+  }
+
+  .contact-form form{
+    width: 120%;
+    margin-left: 10%;
+  }
 }

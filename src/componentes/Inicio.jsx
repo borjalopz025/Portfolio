@@ -8,13 +8,12 @@ const Inicio = () => {
   return (
     <div className='inicio'>
         <Header/>
-        <h1>Sobre mi</h1>
+        <h1 className='sobre'>Sobre mi</h1>
         <div className='tarjeta-des'>
             <div className='descripcion'>
                 
-                <p>Hola soy Borja, <strong> Programador Full Stack</strong>. Desde que comencé este camino, me di cuenta de que sería un desafío, pero la constancia se ha convertido en mi mejor aliado.
-                </p>
-                <p>Mi enfoque principal ha sido el desarrollo web y la creación de aplicaciones orientadas al usuario. Si quieres que te ayude con la creación de tu página web .
+                <h2>- Desarrollador Web -</h2>
+                <p>Hola, Soy Borja desarrollador web con predisposión al back-end, tengo más experiencia en la implementación y optimización de servidores y bases de datos, en mi github podeis ver mas proyectos.
                 <p><strong><a href="#contacto">Contacta conmigo</a></strong></p>
                 </p>
                 <div className='img'>
@@ -36,7 +35,7 @@ const Inicio = () => {
                 
             </div>
             <div className='foto'>
-                <img src="./public/imagenes/yo.jpg" alt="" />
+                <img src="./public/imagenes/yo-sin-fondo.png" alt="" />
             </div>
         </div>
         
