@@ -1,4 +1,14 @@
 {
     "version": 2,
-    "name": "portfolio-con-vercel"
-}
+    "routes": [
+      {
+        "src": "/main.jsx/.*",
+        "dest": "vite.config.js"
+      },
+      {
+        "src": "/.*",
+        "dest": "/index.html"
+      }
+    ]
+  }
+  
