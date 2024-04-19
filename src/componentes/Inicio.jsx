@@ -13,7 +13,7 @@ const Inicio = () => {
             <div className='descripcion'>
                 
                 <h2>- Desarrollador Web -</h2>
-                <p>Hola, Soy Borja desarrollador web con predisposión al back-end, tengo más experiencia en la implementación y optimización de servidores y bases de datos, en mi github podeis ver mas proyectos.
+                <p>Hola, Soy Borja, Desarrollador Web con experiencia en diversas tecnologías y frameworks,Mi trayectoria profesional incluye la creación de aplicaciones web, sitios web y APIs utilizando una variedad de tecnologías en mi github podeis ver un poco más de mi.
                 <p><strong><a href="#contacto">Contacta conmigo</a></strong></p>
                 </p>
                 <div className='img'>
