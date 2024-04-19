@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  
 }
 
 html {
@@ -14,8 +15,8 @@ html {
   height: 100vh;
 
   background-image: url('../public/imagenes/spacio2.jpeg');
-  background-repeat: repeat; /* Esto hace que la imagen se repita */
-  background-size: auto; /* Esto mantiene el tamaño original de la imagen */
+  background-repeat: repeat;
+  background-size: auto; 
   height: 100vh;
   top: 0;
   left: 0;
@@ -318,6 +319,8 @@ footer {
   color: black;
   margin-top: 13%;
   text-align:center;
+  position:static;
+  bottom: 0;
 }
 
 
@@ -338,8 +341,8 @@ footer {
   
  
     background-image: url('../public/imagenes/spacio2.jpeg');
-    background-repeat: repeat; /* Esto hace que la imagen se repita */
-    background-size: auto; /* Esto mantiene el tamaño original de la imagen */
+    background-repeat: repeat; 
+    background-size: auto; 
     height: 100vh;
     top: 0;
     left: 0;
@@ -378,16 +381,15 @@ footer {
     height: 100vh;
   
     background-image: url('../public/imagenes/spacio2.jpeg');
-    background-repeat: repeat; /* Esto hace que la imagen se repita */
-    background-size: auto; /* Esto mantiene el tamaño original de la imagen */
-    height: 100vh;
+    background-repeat: repeat; 
+    background-size: auto; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 0;
   
-    height: 3800px;
+    height: 3900px;
   }
   
   .header {
@@ -404,7 +406,7 @@ footer {
   }
 
   .inicio .tarjeta-des {
-    margin: 0 auto; /* Esto centra el elemento horizontalmente */
+    margin: 0 auto; 
   }
 
   .inicio h1 {

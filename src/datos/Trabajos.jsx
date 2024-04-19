@@ -41,7 +41,7 @@ export const Trabajos = [
         'tecnologias': 'REACT - NODEJS - JS - POSTGRESQL - HTML - CSS', 
         'Categorias': 'Desarrollo Web',
         'descripcion' : 'Esta aplicación de blog permite a los usuarios crear, editar y borrar artículos fácilmente. Con una interfaz amigable',
-        'imagenPrevia':  '/imagenes/vite-React.png',
+        'imagenPrevia':  '/imagenes/Vite-React.png',
         'url': 'https://github.com/borjalopz025/Blog_React',
         'back' : 'https://github.com/borjalopz025/Api-Blog'
     }
