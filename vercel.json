@@ -1,12 +1,27 @@
 {
-  "builds": [
-    {
-      "src": "src/main.jsx",
-      "use": "@vercel/static",
-      "config": {
-        "buildCommand": "npm run build"
+    "version": 2,
+    "builds": [
+      {
+        "src": "vite.config.js",
+        "use": "@vercel/node",
+        "config": {
+          "maxLambdaSize": "10mb"
+        }
+      },
+      {
+        "src": "public/**/*",
+        "use": "@vercel/static"
       }
-    }
-  ],
-  "version": 2
-}
+    ],
+    "routes": [
+      {
+        "src": "/api/.*",
+        "dest": "vite.config.js"
+      },
+      {
+        "src": "/.*",
+        "dest": "public/index.html"
+      }
+    ]
+  }
+  
