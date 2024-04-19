@@ -2,10 +2,6 @@
     "version": 2,
     "routes": [
       {
-        "src": "/main.jsx/.*",
-        "dest": "vite.config.js"
-      },
-      {
         "src": "/.*",
         "dest": "/index.html"
       }
