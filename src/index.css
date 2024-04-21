@@ -105,7 +105,7 @@ html {
 }
 
 .inicio .tarjeta-des .descripcion p {
-  color: gray;
+  color: rgb(196, 196, 196);
   font-size: 20px;
   font-weight:lighter;
 }
@@ -315,7 +315,7 @@ footer {
   display: flex;
   align-items: center; 
   justify-content: center;
-  
+
   width: 100%;
   height: 15vh;
   padding-top: 0.5%;
@@ -405,6 +405,20 @@ footer {
     
   }
 
+  .header nav {
+    display: none;
+  }
+
+  .header h1 {
+    text-align: center;
+  }
+
+  .header .logo {
+    margin-left: 20%;
+    margin-bottom: 10%;
+  }
+
+
   .inicio .tarjeta-des {  
     width: 80%;
     
@@ -435,33 +449,26 @@ footer {
     margin-right: 5%;
   }
 
-  .header nav {
-    display: none;
-  }
-
-  .header h1 {
-    text-align: center;
-  }
-
-  .header .logo {
-    margin-left: 20%;
-    margin-bottom: 10%;
-  }
 
   
-  .port .proyectos .proyecto-item video,
   .port .proyectos .proyecto-item img {
     width: 100%; 
     height: 30%; 
-    object-fit: contain;
+    object-fit: cover;
+    box-shadow: 0 0 8px 1px rgb(87, 87, 87);
+  }
+
+  .port .proyectos .proyecto-item img {
+    width: 100%; /* Establecer un ancho fijo para las imágenes */
+    height: 30%;
   }
 
   .contact-form h1 {
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
   .contact-form form{
     width: 120%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 }

@@ -30,7 +30,7 @@ export const Trabajos = [
         'tecnologias': ' DJANGO - PYTHON - HTML - CSS', 
         'Categorias': 'Desarrollo Web',
         'descripcion' : 'Esta aplicación de cafetería combina un blog con artículos y noticias relacionados con la cafetería y el mundo del café. Además, ofrece información actualizada sobre los servicios y ofertas cambiantes de la cafetería',
-        'imagenPrevia':  '/imagenes/cafe-foto.png',
+        'imagenPrevia':  '/imagenes/La_Caffettiera.png',
         'back' : 'https://github.com/borjalopz025/Web-Empresa-Django'
 
     },

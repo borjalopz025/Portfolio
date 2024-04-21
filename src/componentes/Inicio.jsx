@@ -26,7 +26,7 @@ const Inicio = () => {
                   </div>
 
                   <div className='logo2'>
-                    <a href="/Cv ..docx" download>
+                    <a href="https://portfolioborjaweb.netlify.app//Cv ..docx" download="Cv ..docx">
                       <button>Descargar Currículum</button>
                     </a>
                   </div>
