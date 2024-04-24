@@ -44,6 +44,16 @@ export const Trabajos = [
         'imagenPrevia':  '/imagenes/Vite-React.png',
         'url': 'https://github.com/borjalopz025/Blog_React',
         'back' : 'https://github.com/borjalopz025/Api-Blog'
+    },
+    {
+        'id':'5',
+        'nombre': 'FAUCET',
+        'video' : '/videos/video-faucet.mp4',
+        'tecnologias': 'REACT - NODEJS - DOCKER - HTML - CSS', 
+        'Categorias': 'Desarrollo Web',
+        'descripcion' : 'Aplicación que facilita transferencias directas de un nodo minero a MetaMask, simplificando el proceso de obtención de criptomonedas',
+        'imagenPrevia':  '/imagenes/faucet-imagen.png',
+        'back' : 'https://github.com/borjalopz025/Faucet'
     }
     
 ]

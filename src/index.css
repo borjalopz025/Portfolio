@@ -12,7 +12,7 @@ html {
 
 .layout {
   width: 100%;
-  height: 100vh;
+
 
   background-image: url('../public/imagenes/spacio2.jpeg');
   background-repeat: repeat;
@@ -24,7 +24,7 @@ html {
   bottom: 0;
   z-index: 0;
 
-  height: 2900px;
+  height: 3700px;
 }
 
 /* Encabezado */
@@ -181,7 +181,7 @@ html {
 .port {
   width: 70%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 
@@ -281,6 +281,7 @@ html {
 
 .contact-form h1 {
   margin-bottom: 10%;
+  margin-top: 15%;
 }
 
 .contact-form form input[type='text'],
